@@ -3,13 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splash.WelcomeActivity">
+    tools:context=".splash.WelcomeActivity"
+    android:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/iv_welcome"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@mipmap/guide_welcome"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guide_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
 
 
 </RelativeLayout>

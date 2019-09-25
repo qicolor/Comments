@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">peopleComments</string>
+    <string name="main_home">首页</string>
+    <string name="main_mine">我的</string>
+    <string name="main_search">发现</string>
+    <string name="main_tuan">团购</string>
 </resources>
